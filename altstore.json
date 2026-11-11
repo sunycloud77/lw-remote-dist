@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.6",
+          "buildVersion": "6",
+          "date": "2026-11-11T15:58:40Z",
+          "localizedDescription": "V5.06 動態島：鎖定畫面路線進度條（右邊出發→左邊到站）",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.6/LWRemote.ipa",
+          "size": 6447081
+        },
+        {
           "version": "1.0.5",
           "buildVersion": "5",
           "date": "2026-11-11T12:39:54Z",
