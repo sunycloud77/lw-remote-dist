@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.5",
+          "buildVersion": "5",
+          "date": "2026-11-11T12:39:54Z",
+          "localizedDescription": "Add files via upload",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.5/LWRemote.ipa",
+          "size": 6439520
+        },
+        {
           "version": "1.0.4",
           "buildVersion": "4",
           "date": "2026-11-11T06:22:06Z",
@@ -43,7 +51,12 @@
           "size": 6424936
         }
       ],
-      "appPermissions": {}
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "連到家裡電腦上的 Last War 輔助工具（同一個 Wi-Fi 時）。"
+        }
+      }
     }
   ],
   "news": []
