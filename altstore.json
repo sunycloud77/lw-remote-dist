@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.8",
+          "buildVersion": "8",
+          "date": "2026-11-12T00:25:18Z",
+          "localizedDescription": "V5.14 鎖定畫面：今日進度 5 格、到站／重置時刻、下一個預約",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.8/LWRemote.ipa",
+          "size": 6455066
+        },
+        {
           "version": "1.0.7",
           "buildVersion": "7",
           "date": "2026-11-12T00:25:02Z",
