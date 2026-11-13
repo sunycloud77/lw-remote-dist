@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.15",
+          "buildVersion": "15",
+          "date": "2026-11-13T15:00:02Z",
+          "localizedDescription": "V5.69 App：深色模式下首頁字變白看不到 → 淺色頁固定深色字；「我的」加鑰匙圈備份狀態\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.15/LWRemote.ipa",
+          "size": 7374486
+        },
+        {
           "version": "1.0.14",
           "buildVersion": "14",
           "date": "2026-11-13T11:54:29Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "Add files via upload",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.5/LWRemote.ipa",
           "size": 6439520
-        },
-        {
-          "version": "1.0.4",
-          "buildVersion": "4",
-          "date": "2026-11-11T06:22:06Z",
-          "localizedDescription": "Update LWIslandWidget.swift",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.4/LWRemote.ipa",
-          "size": 6439519
         }
       ],
       "appPermissions": {
