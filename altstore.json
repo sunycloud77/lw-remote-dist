@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.16",
+          "buildVersion": "16",
+          "date": "2026-11-14T03:38:02Z",
+          "localizedDescription": "V5.78 App：首頁一頁式（每台電腦：Last War／電腦兩格＋我的程式那排）、介面模式（跟隨系統／白天／暗黑）\n\n- 底下分頁只剩「首頁／我的」；首頁每台電腦一塊，點程式圖示直接連電腦畫面並開那個程式（網址帶 app=）\n- 背景、卡片顏色跟著白天／暗黑換，拿掉固定淺色（深色模式時底下分頁字看不到）\n- 「我的 → 外觀」介面模式\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.16/LWRemote.ipa",
+          "size": 7387797
+        },
+        {
           "version": "1.0.15",
           "buildVersion": "15",
           "date": "2026-11-13T15:00:02Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.06 動態島：鎖定畫面路線進度條（右邊出發→左邊到站）",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.6/LWRemote.ipa",
           "size": 6447081
-        },
-        {
-          "version": "1.0.5",
-          "buildVersion": "5",
-          "date": "2026-11-11T12:39:54Z",
-          "localizedDescription": "Add files via upload",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.5/LWRemote.ipa",
-          "size": 6439520
         }
       ],
       "appPermissions": {
