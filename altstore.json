@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.19",
+          "buildVersion": "19",
+          "date": "2026-11-14T05:18:46Z",
+          "localizedDescription": "V5.83 App：遠端畫面的設定改成 iPhone 原生設定頁\n\n- 齒輪 → 原生設定頁（整頁、分組：畫面／操作／電腦畫面／頂列／鎖定畫面／動作），每項有說明，選項少用分段按鈕、多用選單\n- 設定值還是存在網頁（window.lwPrefs.list()/set()/act()），App 只負責畫畫面\n- 拿掉用不到的：「看哪個畫面」（動態島左右滑）、「回 App 首頁」放到動作區\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.19/LWRemote.ipa",
+          "size": 7477673
+        },
+        {
           "version": "1.0.18",
           "buildVersion": "18",
           "date": "2026-11-14T04:28:55Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.18 鎖定畫面：今日完成時路線條跑到 10:00 重置的進度",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.9/LWRemote.ipa",
           "size": 6455025
-        },
-        {
-          "version": "1.0.8",
-          "buildVersion": "8",
-          "date": "2026-11-12T00:25:18Z",
-          "localizedDescription": "V5.14 鎖定畫面：今日進度 5 格、到站／重置時刻、下一個預約",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.8/LWRemote.ipa",
-          "size": 6455066
         }
       ],
       "appPermissions": {
