@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.18",
+          "buildVersion": "18",
+          "date": "2026-11-14T04:28:55Z",
+          "localizedDescription": "V5.80 App：首頁學 YouTube（使用者選定的模擬圖）\n\n- 頂列固定（LW遠端＋連接新電腦），內容從底下捲過去、沒有分隔線\n- 分類小膠囊：全部／遊戲／電腦／程式／視窗／設定（點了捲到那段）\n- 每台電腦：名稱列（頭像、線上、工具版本、⋯）、Last War／電腦影片卡（整排寬縮圖，直向遊戲放中間兩邊模糊填滿；串流中、平板／桌面標籤；標題列＋⋮選單）、我的程式、開著的視窗（點了切到那個視窗，網址帶 win=）\n- ＋ 連接新電腦卡片、最底下「我的」設定；底下毛玻璃膠囊：首頁／程式／我的\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.18/LWRemote.ipa",
+          "size": 7452768
+        },
+        {
           "version": "1.0.17",
           "buildVersion": "17",
           "date": "2026-11-14T04:24:27Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.14 鎖定畫面：今日進度 5 格、到站／重置時刻、下一個預約",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.8/LWRemote.ipa",
           "size": 6455066
-        },
-        {
-          "version": "1.0.7",
-          "buildVersion": "7",
-          "date": "2026-11-12T00:25:02Z",
-          "localizedDescription": "V5.14 動態島資料：今日已發、到站／重置時刻",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.7/LWRemote.ipa",
-          "size": 6448451
         }
       ],
       "appPermissions": {
