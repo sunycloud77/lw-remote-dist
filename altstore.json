@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.22",
+          "buildVersion": "22",
+          "date": "2026-11-14T09:41:35Z",
+          "localizedDescription": "V5.90 App：觸控微震動\n\n- 網頁送 {t:'hap', s}：light 點畫面、medium 長按變右鍵、rigid 動態島切畫面／回首頁、sel 點按鈕（UIImpactFeedbackGenerator／UISelectionFeedbackGenerator）\n- 設定可關（網頁 PREF hap，原生設定頁「觸控震動」）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.22/LWRemote.ipa",
+          "size": 7509081
+        },
+        {
           "version": "1.0.21",
           "buildVersion": "21",
           "date": "2026-11-14T09:40:07Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.65 App：網頁可叫回「我的電腦」首頁（頂列往右滑／設定的回首頁鈕）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.13/LWRemote.ipa",
           "size": 3355002
-        },
-        {
-          "version": "1.0.12",
-          "buildVersion": "12",
-          "date": "2026-11-13T08:19:53Z",
-          "localizedDescription": "V5.56 App：修正 HubStore init 編譯錯誤（hosts 要先初始化）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.12/LWRemote.ipa",
-          "size": 3354976
         }
       ],
       "appPermissions": {
