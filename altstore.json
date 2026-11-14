@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.20",
+          "buildVersion": "20",
+          "date": "2026-11-14T06:29:45Z",
+          "localizedDescription": "V5.86 App：首頁左上角的橘色方塊改成藍色 App 圖示\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.20/LWRemote.ipa",
+          "size": 7502622
+        },
+        {
           "version": "1.0.19",
           "buildVersion": "19",
           "date": "2026-11-14T05:18:46Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.21 App：可以切到電腦主畫面（Moonlight 連第二個 Sunshine 48989）",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.10/LWRemote.ipa",
           "size": 6454979
-        },
-        {
-          "version": "1.0.9",
-          "buildVersion": "9",
-          "date": "2026-11-12T01:12:42Z",
-          "localizedDescription": "V5.18 鎖定畫面：今日完成時路線條跑到 10:00 重置的進度",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.9/LWRemote.ipa",
-          "size": 6455025
         }
       ],
       "appPermissions": {
