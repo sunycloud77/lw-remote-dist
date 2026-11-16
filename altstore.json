@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.23",
+          "buildVersion": "23",
+          "date": "2026-11-16T12:16:04Z",
+          "localizedDescription": "V5.95 App：剪貼簿跟電腦互通、手勢教學點了有反應\n\n- 網頁送 {t:'clip', s} → UIPasteboard（電腦複製的文字放進 iPhone）；{t:'clipRead'} → 讀 iPhone 剪貼簿回 window.lwClipFromPhone（電腦貼上前先放進電腦剪貼簿）\n- 手勢教學的 sheet 改掛在「我的」那段（跟新增／編輯電腦的 sheet 掛同一層時點了沒反應）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.23/LWRemote.ipa",
+          "size": 7509614
+        },
+        {
           "version": "1.0.22",
           "buildVersion": "22",
           "date": "2026-11-14T09:41:35Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.66 App：圖示可選（轉盤／女角）；配對鑰匙、配對資料、電腦清單存進鑰匙圈（重裝不用重新配對）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.14/LWRemote.ipa",
           "size": 7372093
-        },
-        {
-          "version": "1.0.13",
-          "buildVersion": "13",
-          "date": "2026-11-13T11:02:01Z",
-          "localizedDescription": "V5.65 App：網頁可叫回「我的電腦」首頁（頂列往右滑／設定的回首頁鈕）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.13/LWRemote.ipa",
-          "size": 3355002
         }
       ],
       "appPermissions": {
