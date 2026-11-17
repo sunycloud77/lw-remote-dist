@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.25",
+          "buildVersion": "25",
+          "date": "2026-11-17T11:26:44Z",
+          "localizedDescription": "V6.13 App：鎖定畫面鹿車卡片不再卡在舊的到站時間\n\n- iOS 一個即時動態最多 8 小時就被系統結束，畫面還留著最後內容（例如「到站 18:05」0:00）但再也更新不了：已結束的直接收掉；開超過 7.5 小時趁 App 在前景換新的\n- 到站那刻卡片重畫，倒數寫「到站」，不再停在 0:00\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.25/LWRemote.ipa",
+          "size": 7513036
+        },
+        {
           "version": "1.0.24",
           "buildVersion": "24",
           "date": "2026-11-16T12:49:51Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.78 App：首頁一頁式（每台電腦：Last War／電腦兩格＋我的程式那排）、介面模式（跟隨系統／白天／暗黑）\n\n- 底下分頁只剩「首頁／我的」；首頁每台電腦一塊，點程式圖示直接連電腦畫面並開那個程式（網址帶 app=）\n- 背景、卡片顏色跟著白天／暗黑換，拿掉固定淺色（深色模式時底下分頁字看不到）\n- 「我的 → 外觀」介面模式\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.16/LWRemote.ipa",
           "size": 7387797
-        },
-        {
-          "version": "1.0.15",
-          "buildVersion": "15",
-          "date": "2026-11-13T15:00:02Z",
-          "localizedDescription": "V5.69 App：深色模式下首頁字變白看不到 → 淺色頁固定深色字；「我的」加鑰匙圈備份狀態\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.15/LWRemote.ipa",
-          "size": 7374486
         }
       ],
       "appPermissions": {
