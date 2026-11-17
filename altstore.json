@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.26",
+          "buildVersion": "26",
+          "date": "2026-11-17T15:47:39Z",
+          "localizedDescription": "V6.21 App：首頁多一格「程式」（放程式的虛擬螢幕）\n\n- 首頁每台電腦：Last War／程式／電腦（Windows 主螢幕）三格，各有縮圖\n- 程式、電腦兩格共用第二個 Sunshine：網址帶 desk=1／0，電腦照這個決定串手機桌面或主螢幕\n- 「我的程式」一律開在程式那格；「開著的視窗」照視窗在哪個螢幕開對應那格\n- 舊版電腦工具沒有 prog 那格就不顯示\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.26/LWRemote.ipa",
+          "size": 7514404
+        },
+        {
           "version": "1.0.25",
           "buildVersion": "25",
           "date": "2026-11-17T11:26:44Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.79 App：首頁一頁到底（全部 Last War → 所有電腦 → 我的程式 → 我的設定）、底下毛玻璃膠囊\n\n- 照使用者參考圖：上面不放導覽列；段落標題「全部 Last War（n 台）⊕」「所有電腦（n 台）⊕」，卡片整排寬\n- 底下浮起來的毛玻璃膠囊：首頁／我的程式／＋連接新電腦／我的，點了捲到那一段（不換頁）\n- 「我的」改成首頁最底下一段（電腦清單、外觀、App 圖示、省流量、縮圖更新、手勢教學、鑰匙圈）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.17/LWRemote.ipa",
           "size": 7406635
-        },
-        {
-          "version": "1.0.16",
-          "buildVersion": "16",
-          "date": "2026-11-14T03:38:02Z",
-          "localizedDescription": "V5.78 App：首頁一頁式（每台電腦：Last War／電腦兩格＋我的程式那排）、介面模式（跟隨系統／白天／暗黑）\n\n- 底下分頁只剩「首頁／我的」；首頁每台電腦一塊，點程式圖示直接連電腦畫面並開那個程式（網址帶 app=）\n- 背景、卡片顏色跟著白天／暗黑換，拿掉固定淺色（深色模式時底下分頁字看不到）\n- 「我的 → 外觀」介面模式\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.16/LWRemote.ipa",
-          "size": 7387797
         }
       ],
       "appPermissions": {
