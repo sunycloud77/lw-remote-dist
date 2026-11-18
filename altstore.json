@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.27",
+          "buildVersion": "27",
+          "date": "2026-11-18T01:49:54Z",
+          "localizedDescription": "V6.25 App：頂列電池顯示充電中\n\n- pushInfo() 多傳第二個參數：充電中（batteryState 是 .charging 或 .full）→ window.lwNativeBat(電量, 0/1)\n- 監聽 batteryStateDidChange／batteryLevelDidChange，插拔電馬上更新（不用等 20 秒）\n- 網頁 V6.25 讀第二個參數；舊網頁多一個參數不影響\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.27/LWRemote.ipa",
+          "size": 7515332
+        },
+        {
           "version": "1.0.26",
           "buildVersion": "26",
           "date": "2026-11-17T15:47:39Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.80 App：首頁學 YouTube（使用者選定的模擬圖）\n\n- 頂列固定（LW遠端＋連接新電腦），內容從底下捲過去、沒有分隔線\n- 分類小膠囊：全部／遊戲／電腦／程式／視窗／設定（點了捲到那段）\n- 每台電腦：名稱列（頭像、線上、工具版本、⋯）、Last War／電腦影片卡（整排寬縮圖，直向遊戲放中間兩邊模糊填滿；串流中、平板／桌面標籤；標題列＋⋮選單）、我的程式、開著的視窗（點了切到那個視窗，網址帶 win=）\n- ＋ 連接新電腦卡片、最底下「我的」設定；底下毛玻璃膠囊：首頁／程式／我的\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.18/LWRemote.ipa",
           "size": 7452768
-        },
-        {
-          "version": "1.0.17",
-          "buildVersion": "17",
-          "date": "2026-11-14T04:24:27Z",
-          "localizedDescription": "V5.79 App：首頁一頁到底（全部 Last War → 所有電腦 → 我的程式 → 我的設定）、底下毛玻璃膠囊\n\n- 照使用者參考圖：上面不放導覽列；段落標題「全部 Last War（n 台）⊕」「所有電腦（n 台）⊕」，卡片整排寬\n- 底下浮起來的毛玻璃膠囊：首頁／我的程式／＋連接新電腦／我的，點了捲到那一段（不換頁）\n- 「我的」改成首頁最底下一段（電腦清單、外觀、App 圖示、省流量、縮圖更新、手勢教學、鑰匙圈）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.17/LWRemote.ipa",
-          "size": 7406635
         }
       ],
       "appPermissions": {
