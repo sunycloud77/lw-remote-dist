@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.29",
+          "buildVersion": "29",
+          "date": "2026-11-18T12:57:00Z",
+          "localizedDescription": "V6.39 App：電腦那格底下也能開程式（開在 Windows 主螢幕）\n\n- HubAppsRow 多 pc 參數：「電腦」卡片底下多一排「在電腦開」，點了網址帶 desk=0，電腦端把程式開在主螢幕\n- 程式那格底下的「我的程式」照舊開在程式（手機桌面）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.29/LWRemote.ipa",
+          "size": 7518381
+        },
+        {
           "version": "1.0.28",
           "buildVersion": "28",
           "date": "2026-11-18T02:56:39Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.86 App：首頁左上角的橘色方塊改成藍色 App 圖示\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.20/LWRemote.ipa",
           "size": 7502622
-        },
-        {
-          "version": "1.0.19",
-          "buildVersion": "19",
-          "date": "2026-11-14T05:18:46Z",
-          "localizedDescription": "V5.83 App：遠端畫面的設定改成 iPhone 原生設定頁\n\n- 齒輪 → 原生設定頁（整頁、分組：畫面／操作／電腦畫面／頂列／鎖定畫面／動作），每項有說明，選項少用分段按鈕、多用選單\n- 設定值還是存在網頁（window.lwPrefs.list()/set()/act()），App 只負責畫畫面\n- 拿掉用不到的：「看哪個畫面」（動態島左右滑）、「回 App 首頁」放到動作區\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.19/LWRemote.ipa",
-          "size": 7477673
         }
       ],
       "appPermissions": {
