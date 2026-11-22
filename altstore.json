@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.30",
+          "buildVersion": "30",
+          "date": "2026-11-22T09:11:10Z",
+          "localizedDescription": "V7.31 App：上下邊緣還給 iPhone，往上滑一次就回首頁\n\n以前 preferredScreenEdgesDeferringSystemGestures 是 .all，回首頁、拉控制中心都要滑兩次；\n改成只有左右邊緣先給遊戲。\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.30/LWRemote.ipa",
+          "size": 7518340
+        },
+        {
           "version": "1.0.29",
           "buildVersion": "29",
           "date": "2026-11-18T12:57:00Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.90 App：卡片按鈕按下去有回饋\n\n- 按下去先變暗（invalidatableContent），電腦回應後卡片狀態行換成「✓ 已送出：內政（電腦收到了）」綠字／「✗ 沒送到電腦」紅字，4 秒後換回原本狀態\n- DeerAttributes.ContentState 多 note／noteOK（optional）；LWIntentHook 由 App 啟動時設定（被卡片叫起來的背景 process 也會跑）\n- 鎖定畫面卡片沒有震動：iOS 不讓即時動態的按鈕震動\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.21/LWRemote.ipa",
           "size": 7508168
-        },
-        {
-          "version": "1.0.20",
-          "buildVersion": "20",
-          "date": "2026-11-14T06:29:45Z",
-          "localizedDescription": "V5.86 App：首頁左上角的橘色方塊改成藍色 App 圖示\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.20/LWRemote.ipa",
-          "size": 7502622
         }
       ],
       "appPermissions": {
