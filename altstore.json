@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.32",
+          "buildVersion": "32",
+          "date": "2026-11-24T09:13:16Z",
+          "localizedDescription": "V7.59 App：影像層可以順時針轉 90 度（電腦那頁直拿看橫畫面）\n\n- 網頁 rect 訊息多 rot（90＝順時針轉 90 度）：影像層用 bounds＋position＋旋轉 transform 放進網頁給的框\n- 新開的 Moonlight 影像層也照最後的框和轉向放\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.32/LWRemote.ipa",
+          "size": 7519587
+        },
+        {
           "version": "1.0.31",
           "buildVersion": "31",
           "date": "2026-11-24T00:42:43Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.95 App：剪貼簿跟電腦互通、手勢教學點了有反應\n\n- 網頁送 {t:'clip', s} → UIPasteboard（電腦複製的文字放進 iPhone）；{t:'clipRead'} → 讀 iPhone 剪貼簿回 window.lwClipFromPhone（電腦貼上前先放進電腦剪貼簿）\n- 手勢教學的 sheet 改掛在「我的」那段（跟新增／編輯電腦的 sheet 掛同一層時點了沒反應）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.23/LWRemote.ipa",
           "size": 7509614
-        },
-        {
-          "version": "1.0.22",
-          "buildVersion": "22",
-          "date": "2026-11-14T09:41:35Z",
-          "localizedDescription": "V5.90 App：觸控微震動\n\n- 網頁送 {t:'hap', s}：light 點畫面、medium 長按變右鍵、rigid 動態島切畫面／回首頁、sel 點按鈕（UIImpactFeedbackGenerator／UISelectionFeedbackGenerator）\n- 設定可關（網頁 PREF hap，原生設定頁「觸控震動」）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.22/LWRemote.ipa",
-          "size": 7509081
         }
       ],
       "appPermissions": {
