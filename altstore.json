@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.36",
+          "buildVersion": "36",
+          "date": "2026-11-24T10:37:27Z",
+          "localizedDescription": "V7.66 App：讀取影片一直往前播，不再停在某一格\n\n- 影片用正常速度播向「進度對應的時間」，落後多就播快一點（最多 2 倍），到了才停\n- 網頁還沒回報進度前，App 自己慢慢推到 15%（一開始就會動）\n- 一下跳很多（例如 60%）先跳近再播\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.36/LWRemote.ipa",
+          "size": 7526095
+        },
+        {
           "version": "1.0.35",
           "buildVersion": "35",
           "date": "2026-11-24T10:33:50Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V6.25 App：頂列電池顯示充電中\n\n- pushInfo() 多傳第二個參數：充電中（batteryState 是 .charging 或 .full）→ window.lwNativeBat(電量, 0/1)\n- 監聽 batteryStateDidChange／batteryLevelDidChange，插拔電馬上更新（不用等 20 秒）\n- 網頁 V6.25 讀第二個參數；舊網頁多一個參數不影響\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.27/LWRemote.ipa",
           "size": 7515332
-        },
-        {
-          "version": "1.0.26",
-          "buildVersion": "26",
-          "date": "2026-11-17T15:47:39Z",
-          "localizedDescription": "V6.21 App：首頁多一格「程式」（放程式的虛擬螢幕）\n\n- 首頁每台電腦：Last War／程式／電腦（Windows 主螢幕）三格，各有縮圖\n- 程式、電腦兩格共用第二個 Sunshine：網址帶 desk=1／0，電腦照這個決定串手機桌面或主螢幕\n- 「我的程式」一律開在程式那格；「開著的視窗」照視窗在哪個螢幕開對應那格\n- 舊版電腦工具沒有 prog 那格就不顯示\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.26/LWRemote.ipa",
-          "size": 7514404
         }
       ],
       "appPermissions": {
