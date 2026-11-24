@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.33",
+          "buildVersion": "33",
+          "date": "2026-11-24T09:13:30Z",
+          "localizedDescription": "V7.59 App：告訴網頁會轉影像（lwNativeRot）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.33/LWRemote.ipa",
+          "size": 7519591
+        },
+        {
           "version": "1.0.32",
           "buildVersion": "32",
           "date": "2026-11-24T09:13:16Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V5.97 App：Moonlight 影像層一建好就用網頁給的位置\n\n- 以前第一次開串流先鋪滿整個螢幕（videoView.bounds），網頁的位置比影像層早到時就一直鋪滿，直向看電腦畫面時最下面（Windows 工作列）被編輯列蓋住\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.24/LWRemote.ipa",
           "size": 7509780
-        },
-        {
-          "version": "1.0.23",
-          "buildVersion": "23",
-          "date": "2026-11-16T12:16:04Z",
-          "localizedDescription": "V5.95 App：剪貼簿跟電腦互通、手勢教學點了有反應\n\n- 網頁送 {t:'clip', s} → UIPasteboard（電腦複製的文字放進 iPhone）；{t:'clipRead'} → 讀 iPhone 剪貼簿回 window.lwClipFromPhone（電腦貼上前先放進電腦剪貼簿）\n- 手勢教學的 sheet 改掛在「我的」那段（跟新增／編輯電腦的 sheet 掛同一層時點了沒反應）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.23/LWRemote.ipa",
-          "size": 7509614
         }
       ],
       "appPermissions": {
