@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.39",
+          "buildVersion": "39",
+          "date": "2026-11-24T11:00:03Z",
+          "localizedDescription": "V7.67 App：過場人物影片改從原始檔直接做（維持原畫質）\n\n- 使用者：手機端過場動畫要維持原先高畫質\n- 直接從使用者原始影片（1080×1920、60 張、13.7 Mbps）裁掉下排、來回接成 18 秒循環，只轉一次檔，17.5 Mbps（約 39 MB）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.39/LWRemote.ipa",
+          "size": 46987888
+        },
+        {
           "version": "1.0.38",
           "buildVersion": "38",
           "date": "2026-11-24T10:57:26Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.31 App：上下邊緣還給 iPhone，往上滑一次就回首頁\n\n以前 preferredScreenEdgesDeferringSystemGestures 是 .all，回首頁、拉控制中心都要滑兩次；\n改成只有左右邊緣先給遊戲。\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.30/LWRemote.ipa",
           "size": 7518340
-        },
-        {
-          "version": "1.0.29",
-          "buildVersion": "29",
-          "date": "2026-11-18T12:57:00Z",
-          "localizedDescription": "V6.39 App：電腦那格底下也能開程式（開在 Windows 主螢幕）\n\n- HubAppsRow 多 pc 參數：「電腦」卡片底下多一排「在電腦開」，點了網址帶 desk=0，電腦端把程式開在主螢幕\n- 程式那格底下的「我的程式」照舊開在程式（手機桌面）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.29/LWRemote.ipa",
-          "size": 7518381
         }
       ],
       "appPermissions": {
