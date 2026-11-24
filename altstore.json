@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.41",
+          "buildVersion": "41",
+          "date": "2026-11-24T11:23:02Z",
+          "localizedDescription": "V7.68 App：下排後面維持霧面模糊（原先的讀取風格）\n\n- 使用者：讀取風格維持原先的樣子\n- 下排那一帶加回模糊（上緣漸層淡進人物），字、進度條、趴數樣式不變\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.41/LWRemote.ipa",
+          "size": 48311027
+        },
+        {
           "version": "1.0.40",
           "buildVersion": "40",
           "date": "2026-11-24T11:22:59Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.59 App：影像層可以順時針轉 90 度（電腦那頁直拿看橫畫面）\n\n- 網頁 rect 訊息多 rot（90＝順時針轉 90 度）：影像層用 bounds＋position＋旋轉 transform 放進網頁給的框\n- 新開的 Moonlight 影像層也照最後的框和轉向放\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.32/LWRemote.ipa",
           "size": 7519587
-        },
-        {
-          "version": "1.0.31",
-          "buildVersion": "31",
-          "date": "2026-11-24T00:42:43Z",
-          "localizedDescription": "V7.48 App：設定頁多一顆「左右長條設定」\n\n- 原生設定頁「動作」區多一顆按鈕，按了關掉設定頁、打開網頁的左右長條設定畫面（左長條在左、右長條在右，三個手勢直接點按鈕改）\n- 舊版 App 也能從設定清單「左右長條設定 → 打開」進去\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.31/LWRemote.ipa",
-          "size": 7519198
         }
       ],
       "appPermissions": {
