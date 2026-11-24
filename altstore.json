@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.35",
+          "buildVersion": "35",
+          "date": "2026-11-24T10:33:50Z",
+          "localizedDescription": "V7.65 App：讀取影片存原畫質\n\n- 手機上存 /loading_hq.mp4（1080×1920、60 張，約 30 MB，只下載一次，Caches/lw_loading_hq.mp4）\n- 還沒下載好（或電腦還沒有高畫質版）先播 /loading.mp4\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.35/LWRemote.ipa",
+          "size": 7525850
+        },
+        {
           "version": "1.0.34",
           "buildVersion": "34",
           "date": "2026-11-24T10:32:45Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V6.21 App：首頁多一格「程式」（放程式的虛擬螢幕）\n\n- 首頁每台電腦：Last War／程式／電腦（Windows 主螢幕）三格，各有縮圖\n- 程式、電腦兩格共用第二個 Sunshine：網址帶 desk=1／0，電腦照這個決定串手機桌面或主螢幕\n- 「我的程式」一律開在程式那格；「開著的視窗」照視窗在哪個螢幕開對應那格\n- 舊版電腦工具沒有 prog 那格就不顯示\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.26/LWRemote.ipa",
           "size": 7514404
-        },
-        {
-          "version": "1.0.25",
-          "buildVersion": "25",
-          "date": "2026-11-17T11:26:44Z",
-          "localizedDescription": "V6.13 App：鎖定畫面鹿車卡片不再卡在舊的到站時間\n\n- iOS 一個即時動態最多 8 小時就被系統結束，畫面還留著最後內容（例如「到站 18:05」0:00）但再也更新不了：已結束的直接收掉；開超過 7.5 小時趁 App 在前景換新的\n- 到站那刻卡片重畫，倒數寫「到站」，不再停在 0:00\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.25/LWRemote.ipa",
-          "size": 7513036
         }
       ],
       "appPermissions": {
