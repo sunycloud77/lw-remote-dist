@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.48",
+          "buildVersion": "48",
+          "date": "2026-11-24T16:04:50Z",
+          "localizedDescription": "V7.72 App：電腦頁只鎖一個橫向（轉手機不再翻轉、不重開串流）\n\n- 使用者：手機從直的轉橫的還是會跑動畫，而且畫面被切\n- 以前鎖 .landscape（兩個橫向都可）→ 手機轉到另一邊 iOS 翻 180 度、動態島換邊、網頁以為大小變了重開串流\n- 改成進電腦頁時決定一個橫向（手機已往右轉就用那邊，不然手機往左轉那邊），之後只允許這一個；已鎖就不重鎖\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.48/LWRemote.ipa",
+          "size": 48439625
+        },
+        {
           "version": "1.0.47",
           "buildVersion": "47",
           "date": "2026-11-24T15:25:46Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.67 App：過場人物影片改從原始檔直接做（維持原畫質）\n\n- 使用者：手機端過場動畫要維持原先高畫質\n- 直接從使用者原始影片（1080×1920、60 張、13.7 Mbps）裁掉下排、來回接成 18 秒循環，只轉一次檔，17.5 Mbps（約 39 MB）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.39/LWRemote.ipa",
           "size": 46987888
-        },
-        {
-          "version": "1.0.38",
-          "buildVersion": "38",
-          "date": "2026-11-24T10:57:26Z",
-          "localizedDescription": "V7.67 App：人物影片放進 App、「我的」頁加過場動畫設定\n\n- 使用者：人物不見了（電腦還是 V7.63，沒有 /loading_loop.mp4 可下載）→ loading_loop.mp4 直接打包進 App\n- 「我的」→ 設定 → 過場動畫：人物動畫／只有進度條／關閉（以 App 設定為準）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.38/LWRemote.ipa",
-          "size": 25785927
         }
       ],
       "appPermissions": {
