@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.37",
+          "buildVersion": "37",
+          "date": "2026-11-24T10:45:43Z",
+          "localizedDescription": "V7.66 App：讀取畫面人物跟下排趴數分開\n\n- 人物：/loading_loop.mp4（裁掉下排、前後來回接成循環）一直播，寬度塞滿不切左右，後面墊模糊版補上下\n- 下排：App 自己畫 LOADING／進度條／趴數，趴數一直往真實進度追，追到了也慢慢爬，不定格\n- 完成：趴數衝到 100、LOADING COMPLETE、淡出\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.37/LWRemote.ipa",
+          "size": 7530047
+        },
+        {
           "version": "1.0.36",
           "buildVersion": "36",
           "date": "2026-11-24T10:37:27Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V6.33 App：「我的程式」放到程式那格底下，開著的視窗分兩排\n\n- 首頁順序：Last War／程式／我的程式／程式裡開著的／電腦（Windows 主螢幕）／電腦上開著的視窗\n- HubWinsRow 多 onPhone 篩選（true＝手機桌面、false＝主螢幕）\n- 舊版電腦工具（沒有程式那格）照舊\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.28/LWRemote.ipa",
           "size": 7517917
-        },
-        {
-          "version": "1.0.27",
-          "buildVersion": "27",
-          "date": "2026-11-18T01:49:54Z",
-          "localizedDescription": "V6.25 App：頂列電池顯示充電中\n\n- pushInfo() 多傳第二個參數：充電中（batteryState 是 .charging 或 .full）→ window.lwNativeBat(電量, 0/1)\n- 監聽 batteryStateDidChange／batteryLevelDidChange，插拔電馬上更新（不用等 20 秒）\n- 網頁 V6.25 讀第二個參數；舊網頁多一個參數不影響\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.27/LWRemote.ipa",
-          "size": 7515332
         }
       ],
       "appPermissions": {
