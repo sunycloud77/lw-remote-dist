@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.42",
+          "buildVersion": "42",
+          "date": "2026-11-24T11:43:18Z",
+          "localizedDescription": "V7.68 App：LOGO 回原位、影片靠左、進度條加回光暈\n\n- 使用者：LOGO 維持原位（動態島左邊）、左手完整保留、右手可以切一點；下排很好但光暈不見了\n- 影片不再移動 LAST WAR 標誌（只抹右上兔子與原本下排）；畫面高度塞滿、靠左放（只切右邊）\n- 進度條照影片原本樣式：兩端尖頭、藍色外框光暈、粉紅→白漸層＋斜紋、前端發光亮點與直的光線；LOADING／趴數加強光暈\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.42/LWRemote.ipa",
+          "size": 48433029
+        },
+        {
           "version": "1.0.41",
           "buildVersion": "41",
           "date": "2026-11-24T11:23:02Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.59 App：告訴網頁會轉影像（lwNativeRot）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.33/LWRemote.ipa",
           "size": 7519591
-        },
-        {
-          "version": "1.0.32",
-          "buildVersion": "32",
-          "date": "2026-11-24T09:13:16Z",
-          "localizedDescription": "V7.59 App：影像層可以順時針轉 90 度（電腦那頁直拿看橫畫面）\n\n- 網頁 rect 訊息多 rot（90＝順時針轉 90 度）：影像層用 bounds＋position＋旋轉 transform 放進網頁給的框\n- 新開的 Moonlight 影像層也照最後的框和轉向放\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.32/LWRemote.ipa",
-          "size": 7519587
         }
       ],
       "appPermissions": {
