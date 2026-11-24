@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.44",
+          "buildVersion": "44",
+          "date": "2026-11-24T11:50:28Z",
+          "localizedDescription": "V7.68 App：讀取畫面只切右手、胸部完整\n\n- 使用者：右手可以切，胸部不能切\n- 影片橫向顯示原圖 x 12～960（左手、LOGO 完整，胸部右邊留一點空），貼齊上方；模糊帶從 y1690（原本進度條那段）上方開始\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.44/LWRemote.ipa",
+          "size": 48433099
+        },
+        {
           "version": "1.0.43",
           "buildVersion": "43",
           "date": "2026-11-24T11:48:19Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.65 App：讀取影片存原畫質\n\n- 手機上存 /loading_hq.mp4（1080×1920、60 張，約 30 MB，只下載一次，Caches/lw_loading_hq.mp4）\n- 還沒下載好（或電腦還沒有高畫質版）先播 /loading.mp4\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.35/LWRemote.ipa",
           "size": 7525850
-        },
-        {
-          "version": "1.0.34",
-          "buildVersion": "34",
-          "date": "2026-11-24T10:32:45Z",
-          "localizedDescription": "V7.64 App：讀取畫面改由 App 自己播（使用者自己做的影片）\n\n- 一進遠端畫面就顯示讀取畫面（以前等網頁載好前一片黑）\n- 網頁送 {t:'ldr', p} → 影片停在跟進度一樣 % 的那一格；{t:'ldrdone'} → 播到 LOADING COMPLETE 淡出；{t:'ldrcfg', s} 存風格（不是 vid 就交給網頁）\n- 影片第一次從電腦 /loading.mp4 下載，存在 Caches/lw_loading.mp4，之後直接用；30 秒沒消息自動收起\n- 注入 lwNativeLdr\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.34/LWRemote.ipa",
-          "size": 7525652
         }
       ],
       "appPermissions": {
