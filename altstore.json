@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.34",
+          "buildVersion": "34",
+          "date": "2026-11-24T10:32:45Z",
+          "localizedDescription": "V7.64 App：讀取畫面改由 App 自己播（使用者自己做的影片）\n\n- 一進遠端畫面就顯示讀取畫面（以前等網頁載好前一片黑）\n- 網頁送 {t:'ldr', p} → 影片停在跟進度一樣 % 的那一格；{t:'ldrdone'} → 播到 LOADING COMPLETE 淡出；{t:'ldrcfg', s} 存風格（不是 vid 就交給網頁）\n- 影片第一次從電腦 /loading.mp4 下載，存在 Caches/lw_loading.mp4，之後直接用；30 秒沒消息自動收起\n- 注入 lwNativeLdr\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.34/LWRemote.ipa",
+          "size": 7525652
+        },
+        {
           "version": "1.0.33",
           "buildVersion": "33",
           "date": "2026-11-24T09:13:30Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V6.13 App：鎖定畫面鹿車卡片不再卡在舊的到站時間\n\n- iOS 一個即時動態最多 8 小時就被系統結束，畫面還留著最後內容（例如「到站 18:05」0:00）但再也更新不了：已結束的直接收掉；開超過 7.5 小時趁 App 在前景換新的\n- 到站那刻卡片重畫，倒數寫「到站」，不再停在 0:00\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.25/LWRemote.ipa",
           "size": 7513036
-        },
-        {
-          "version": "1.0.24",
-          "buildVersion": "24",
-          "date": "2026-11-16T12:49:51Z",
-          "localizedDescription": "V5.97 App：Moonlight 影像層一建好就用網頁給的位置\n\n- 以前第一次開串流先鋪滿整個螢幕（videoView.bounds），網頁的位置比影像層早到時就一直鋪滿，直向看電腦畫面時最下面（Windows 工作列）被編輯列蓋住\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.24/LWRemote.ipa",
-          "size": 7509780
         }
       ],
       "appPermissions": {
