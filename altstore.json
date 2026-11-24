@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.47",
+          "buildVersion": "47",
+          "date": "2026-11-24T15:25:46Z",
+          "localizedDescription": "V7.71 App：電腦／程式頁鎖橫向（整體用橫的版面）\n\n- 使用者：Windows 桌面請照橫向的介面（左資訊列、右按鈕列），整體操作都要這樣；點程式也要是橫的\n- OrientDelegate（App 允許的方向）；網頁送 {t:'orient', land} → 鎖 .landscape（預設手機往左轉那個方向）／解鎖照手機方向\n- 離開遠端畫面自動解鎖；注入 window.lwNativeOrient = 1（網頁就不再自己把影像轉 90 度）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.47/LWRemote.ipa",
+          "size": 48439776
+        },
+        {
           "version": "1.0.46",
           "buildVersion": "46",
           "date": "2026-11-24T14:56:19Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.67 App：人物影片放進 App、「我的」頁加過場動畫設定\n\n- 使用者：人物不見了（電腦還是 V7.63，沒有 /loading_loop.mp4 可下載）→ loading_loop.mp4 直接打包進 App\n- 「我的」→ 設定 → 過場動畫：人物動畫／只有進度條／關閉（以 App 設定為準）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.38/LWRemote.ipa",
           "size": 25785927
-        },
-        {
-          "version": "1.0.37",
-          "buildVersion": "37",
-          "date": "2026-11-24T10:45:43Z",
-          "localizedDescription": "V7.66 App：讀取畫面人物跟下排趴數分開\n\n- 人物：/loading_loop.mp4（裁掉下排、前後來回接成循環）一直播，寬度塞滿不切左右，後面墊模糊版補上下\n- 下排：App 自己畫 LOADING／進度條／趴數，趴數一直往真實進度追，追到了也慢慢爬，不定格\n- 完成：趴數衝到 100、LOADING COMPLETE、淡出\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.37/LWRemote.ipa",
-          "size": 7530047
         }
       ],
       "appPermissions": {
