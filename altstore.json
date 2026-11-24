@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.49",
+          "buildVersion": "49",
+          "date": "2026-11-24T17:14:37Z",
+          "localizedDescription": "App：橫拿時用橫向讀取影片\n\n- 使用者：橫拿的讀取畫面用 Agent Desktop 做的橫向影片（1672×940、10 秒、60fps，背景不動、人物上下飄，可無縫循環）\n- loading_land.mp4 打包進 App；讀取畫面依當下直／橫選影片，轉向時自動換\n- 橫拿：寬度塞滿、貼齊上方（頭在最上面不切），只切下面；下排較緊（76pt），模糊帶蓋住原本進度條修補過的 y 790～890\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.49/LWRemote.ipa",
+          "size": 55999892
+        },
+        {
           "version": "1.0.48",
           "buildVersion": "48",
           "date": "2026-11-24T16:04:50Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.68 App：讀取畫面人物填滿、下排改細帶\n\n- 使用者 11/24：右上角粉紅兔子抹除、上方角色填滿、最下排不要佔太多\n- 影片改整張 1080×1920（原始檔只轉一次、約 18 Mbps）：抹掉右上 D.VA 兔子標誌與影片裡原本的下排，LAST WAR 標誌往右移 80px（填滿螢幕時左邊不被切）\n- 人物填滿整個畫面；下排是疊在最下面約 110pt 的半透明深色帶（LOADING／進度條／趴數／提示）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.40/LWRemote.ipa",
           "size": 48310938
-        },
-        {
-          "version": "1.0.39",
-          "buildVersion": "39",
-          "date": "2026-11-24T11:00:03Z",
-          "localizedDescription": "V7.67 App：過場人物影片改從原始檔直接做（維持原畫質）\n\n- 使用者：手機端過場動畫要維持原先高畫質\n- 直接從使用者原始影片（1080×1920、60 張、13.7 Mbps）裁掉下排、來回接成 18 秒循環，只轉一次檔，17.5 Mbps（約 39 MB）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.39/LWRemote.ipa",
-          "size": 46987888
         }
       ],
       "appPermissions": {
