@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.45",
+          "buildVersion": "45",
+          "date": "2026-11-24T12:16:16Z",
+          "localizedDescription": "V7.69 App：斷線重連、鎖屏解鎖回來也顯示讀取畫面\n\n- 使用者：斷線＋重新連線中還是黑畫面；鎖屏一陣子解鎖回 App 也沒有讀取畫面\n- 串流結束／失敗、串流（重新）開始、App 回前景（離開超過 3 秒）→ 顯示讀取畫面（保險 120 秒）\n- 收到第一張畫面（Moonlight play 或每秒張數 > 0）才收起；淡出中又要顯示就重新開一個\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.45/LWRemote.ipa",
+          "size": 48436730
+        },
+        {
           "version": "1.0.44",
           "buildVersion": "44",
           "date": "2026-11-24T11:50:28Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.66 App：讀取影片一直往前播，不再停在某一格\n\n- 影片用正常速度播向「進度對應的時間」，落後多就播快一點（最多 2 倍），到了才停\n- 網頁還沒回報進度前，App 自己慢慢推到 15%（一開始就會動）\n- 一下跳很多（例如 60%）先跳近再播\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.36/LWRemote.ipa",
           "size": 7526095
-        },
-        {
-          "version": "1.0.35",
-          "buildVersion": "35",
-          "date": "2026-11-24T10:33:50Z",
-          "localizedDescription": "V7.65 App：讀取影片存原畫質\n\n- 手機上存 /loading_hq.mp4（1080×1920、60 張，約 30 MB，只下載一次，Caches/lw_loading_hq.mp4）\n- 還沒下載好（或電腦還沒有高畫質版）先播 /loading.mp4\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.35/LWRemote.ipa",
-          "size": 7525850
         }
       ],
       "appPermissions": {
