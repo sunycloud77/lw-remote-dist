@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.51",
+          "buildVersion": "51",
+          "date": "2026-11-25T13:23:22Z",
+          "localizedDescription": "App：橫向讀取影片換新版（整隊一起飛、背景戰機浮動、不含進度條）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.51/LWRemote.ipa",
+          "size": 62624082
+        },
+        {
           "version": "1.0.50",
           "buildVersion": "50",
           "date": "2026-11-25T00:21:33Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.68 App：LOGO 回原位、影片靠左、進度條加回光暈\n\n- 使用者：LOGO 維持原位（動態島左邊）、左手完整保留、右手可以切一點；下排很好但光暈不見了\n- 影片不再移動 LAST WAR 標誌（只抹右上兔子與原本下排）；畫面高度塞滿、靠左放（只切右邊）\n- 進度條照影片原本樣式：兩端尖頭、藍色外框光暈、粉紅→白漸層＋斜紋、前端發光亮點與直的光線；LOADING／趴數加強光暈\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.42/LWRemote.ipa",
           "size": 48433029
-        },
-        {
-          "version": "1.0.41",
-          "buildVersion": "41",
-          "date": "2026-11-24T11:23:02Z",
-          "localizedDescription": "V7.68 App：下排後面維持霧面模糊（原先的讀取風格）\n\n- 使用者：讀取風格維持原先的樣子\n- 下排那一帶加回模糊（上緣漸層淡進人物），字、進度條、趴數樣式不變\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.41/LWRemote.ipa",
-          "size": 48311027
         }
       ],
       "appPermissions": {
