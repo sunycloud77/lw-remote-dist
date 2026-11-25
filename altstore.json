@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.50",
+          "buildVersion": "50",
+          "date": "2026-11-25T00:21:33Z",
+          "localizedDescription": "App：讀取影片不再打斷 CarPlay／其他 App 的音樂\n\n- 使用者：過場時 Apple CarPlay 的音訊中斷了\n- 原因：App 從沒設 AVAudioSession，預設 soloAmbient（不混音）→ 讀取影片 AVQueuePlayer 一播放就啟用工作階段，iOS 把別的 App 的聲音停掉（就算靜音、影片沒有音軌）\n- 修法：App 啟動和讀取影片播放前都設 .ambient＋.mixWithOthers；讀取畫面收起後 setActive(false, .notifyOthersOnDeactivation) 讓被打斷的音樂接回\n- Moonlight 不是原因：playAudioOnPC＝聲音留在電腦，手機端 ArInit 不播\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.50/LWRemote.ipa",
+          "size": 56000801
+        },
+        {
           "version": "1.0.49",
           "buildVersion": "49",
           "date": "2026-11-24T17:14:37Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.68 App：下排後面維持霧面模糊（原先的讀取風格）\n\n- 使用者：讀取風格維持原先的樣子\n- 下排那一帶加回模糊（上緣漸層淡進人物），字、進度條、趴數樣式不變\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.41/LWRemote.ipa",
           "size": 48311027
-        },
-        {
-          "version": "1.0.40",
-          "buildVersion": "40",
-          "date": "2026-11-24T11:22:59Z",
-          "localizedDescription": "V7.68 App：讀取畫面人物填滿、下排改細帶\n\n- 使用者 11/24：右上角粉紅兔子抹除、上方角色填滿、最下排不要佔太多\n- 影片改整張 1080×1920（原始檔只轉一次、約 18 Mbps）：抹掉右上 D.VA 兔子標誌與影片裡原本的下排，LAST WAR 標誌往右移 80px（填滿螢幕時左邊不被切）\n- 人物填滿整個畫面；下排是疊在最下面約 110pt 的半透明深色帶（LOADING／進度條／趴數／提示）\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.40/LWRemote.ipa",
-          "size": 48310938
         }
       ],
       "appPermissions": {
