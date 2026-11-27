@@ -11,6 +11,14 @@
       "iconURL": "https://raw.githubusercontent.com/sunycloud77/lw-remote-dist/main/icon.png",
       "versions": [
         {
+          "version": "1.0.52",
+          "buildVersion": "52",
+          "date": "2026-11-27T15:39:47Z",
+          "localizedDescription": "App：首頁加遊玩模式切換（混合／手機＋S11／純桌機），電腦工具 V8.08 以上才顯示\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.52/LWRemote.ipa",
+          "size": 62630850
+        },
+        {
           "version": "1.0.51",
           "buildVersion": "51",
           "date": "2026-11-25T13:23:22Z",
@@ -81,14 +89,6 @@
           "localizedDescription": "V7.68 App：讀取畫面寬度塞滿（照使用者參考圖，胸部右手不切）\n\n- 影片寬度塞滿、貼齊上方（整張寬度都看得到；LOGO 在動態島左邊）；底下墊同一段影片填滿版\n- 模糊帶上緣往上蓋到影片最下面（原本進度條抹掉的那段），下排位置大小與光暈樣式不變\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
           "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.43/LWRemote.ipa",
           "size": 48433089
-        },
-        {
-          "version": "1.0.42",
-          "buildVersion": "42",
-          "date": "2026-11-24T11:43:18Z",
-          "localizedDescription": "V7.68 App：LOGO 回原位、影片靠左、進度條加回光暈\n\n- 使用者：LOGO 維持原位（動態島左邊）、左手完整保留、右手可以切一點；下排很好但光暈不見了\n- 影片不再移動 LAST WAR 標誌（只抹右上兔子與原本下排）；畫面高度塞滿、靠左放（只切右邊）\n- 進度條照影片原本樣式：兩端尖頭、藍色外框光暈、粉紅→白漸層＋斜紋、前端發光亮點與直的光線；LOADING／趴數加強光暈\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
-          "downloadURL": "https://github.com/sunycloud77/lw-remote-dist/releases/download/v1.0.42/LWRemote.ipa",
-          "size": 48433029
         }
       ],
       "appPermissions": {
